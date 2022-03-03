@@ -4,14 +4,19 @@ const app = Vue.createApp({
             name: 'Sonwabile',
             surname: 'Gxoyiya',
             currentAge: 22,
-            ageplus5: currentAge + 5,
+            agePlus5: 27 
+        };
+    },
+
+    methods:{
+        generateNumber(){
+            const randNumber = Math.floor(Math.random() * 16);
+            return randNumber;
         }
+
     }
 
 
+});
 
-
-
-
-
-})
+app.mount('#profile');
