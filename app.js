@@ -4,7 +4,9 @@ const app = Vue.createApp({
             name: 'Sonwabile',
             surname: 'Gxoyiya',
             currentAge: 22,
-            agePlus5: 27 
+            agePlus5: 27, 
+            image: 'Soso.jpg',
+            myPhysicalAddress: "1706 FakeAddress Road"
         };
     },
 
