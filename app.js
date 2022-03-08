@@ -4,7 +4,6 @@ const app = Vue.createApp({
             name: 'Sonwabile',
             surname: 'Gxoyiya',
             currentAge: 22,
-            agePlus5: 27, 
             image: 'Soso.jpg',
             myPhysicalAddress: "1706 FakeAddress Road"
         };
@@ -14,6 +13,12 @@ const app = Vue.createApp({
         generateNumber(){
             const randNumber = Math.floor(Math.random() * 16);
             return randNumber;
+        },
+
+        ageInFiveYears(){
+            
+            //const ageInFiveYears = this.currentAge + 5;
+            return this.currentAge + 5;
         }
 
     }
