@@ -11,8 +11,9 @@ const app = Vue.createApp({
 
     methods:{
         generateNumber(){
-            const randNumber = Math.floor(Math.random() * 16);
-            return randNumber;
+            //const randNumber = Math.floor(Math.random() * 16);
+            //return randNumber;
+            return Math.floor(Math.random() * 16);
         },
 
         ageInFiveYears(){
