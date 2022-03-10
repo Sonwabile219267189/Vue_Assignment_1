@@ -22,6 +22,10 @@
         <img id = "imageStyle" v-bind:src = "image">
 
         <p id = "pElement">{{addressText}} {{myPhysicalAddress}}</p>
+
+        <button v-on:click = "addName">Add Name: </button><input type = "text" v-model = "enteredName" >
+
+        <p id = "pElement">{{enteredName}}</p>
     </section>
 
     

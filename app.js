@@ -9,7 +9,8 @@ const app = Vue.createApp({
             numberGenText: 'Generate Random Number:',
             image: 'joeri-romer-Xne1N4yZuOY-unsplash.jpg',
             addressText: 'My Physical Address:',
-            myPhysicalAddress: "11 Hans Strijdom Ave, Cape Town City Centre"
+            myPhysicalAddress: "11 Hans Strijdom Ave, Cape Town City Centre",
+            enteredName: ''
         };
     },
 
@@ -20,6 +21,10 @@ const app = Vue.createApp({
 
         ageInFiveYears(){
             return this.currentAge + 5;
+        },
+
+        addName(){
+            return this.enteredName;
         }
     }
 });
